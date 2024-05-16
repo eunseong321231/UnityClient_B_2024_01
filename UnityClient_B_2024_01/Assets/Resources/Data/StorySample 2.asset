@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8036fd47e3855340ba6aa709b053a3b, type: 3}
+  m_Name: StorySample 2
+  m_EditorClassIdentifier: 
+  storyNumber: 2
+  MainImage: {fileID: 2800000, guid: 55e457740fe60405dac77af143e1a867, type: 3}
+  storyDone: 0
+  storyType: 0
+  storyText: 22222
+  options:
+  - optionText: 123
+    buttonText: "\uC120\uD0DD\uC9C0 1"
+    eventCheck:
+      checkValue: 0
+      type: 0
+      successResult: []
+      failedResult: []
+  - optionText: 123
+    buttonText: "\uC120\uD0DD\uC9C0 2"
+    eventCheck:
+      checkValue: 0
+      type: 0
+      successResult: []
+      failedResult: []
+  - optionText: 123
+    buttonText: "\uC120\uD0DD\uC9C0 3"
+    eventCheck:
+      checkValue: 0
+      type: 0
+      successResult: []
+      failedResult: []

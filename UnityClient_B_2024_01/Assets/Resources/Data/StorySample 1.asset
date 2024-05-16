@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8036fd47e3855340ba6aa709b053a3b, type: 3}
+  m_Name: StorySample 1
+  m_EditorClassIdentifier: 
+  storyNumber: 1
+  MainImage: {fileID: 2800000, guid: dffef66376be4fa480fb02b19edbe903, type: 3}
+  storyDone: 0
+  storyType: 0
+  storyText: "\uD14D\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8 \uD14C\uC2A4\uD2B8"
+  options:
+  - optionText: 123
+    buttonText: "\uC120\uD0DD\uC9C0 1"
+    eventCheck:
+      checkValue: 0
+      type: 0
+      successResult:
+      - resultType: 5
+        value: 2
+        stats:
+          hpPoint: 0
+          spPoint: 0
+          currentHPPoint: 0
+          currentSPPoint: 0
+          currentXPPoint: 0
+          strength: 0
+          dexterity: 0
+          consitiution: 0
+          intelligence: 0
+          wisdom: 0
+          charisma: 0
+      failedResult: []
+  - optionText: 123
+    buttonText: "\uC120\uD0DD\uC9C0 2"
+    eventCheck:
+      checkValue: 0
+      type: 0
+      successResult: []
+      failedResult: []
+  - optionText: 123
+    buttonText: "\uC120\uD0DD\uC9C0 3"
+    eventCheck:
+      checkValue: 0
+      type: 0
+      successResult: []
+      failedResult: []

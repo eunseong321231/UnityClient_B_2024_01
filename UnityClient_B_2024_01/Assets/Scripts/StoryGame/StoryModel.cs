@@ -23,6 +23,7 @@ public class StoryModel : ScriptableObject
     public string storyText;
     public Option[] options;
 
+    [System.Serializable]
     public class Option
     {
         public string optionText;

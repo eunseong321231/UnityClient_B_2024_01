@@ -63,8 +63,8 @@ namespace STORYGAME
         {
             StoryModel tempStoryModels = FindStoryModel(number);
 
-            //StorySystem.Instance.currentStoryModel = tempStoryModels;
-            //StorySystem.instance.CoShowText();
+            StorySystem.instance.currentStoryModel = tempStoryModels;
+            StorySystem.instance.CoShowText();
         }
 
         public void ApplyChoice(StoryModel.Result result)       //스토리 선택 시 결과
@@ -138,8 +138,13 @@ namespace STORYGAME
             StoryModel tempStorymodels = null;
             for (int i = 0; i < storyModels.Length; i++)
             {
-                tempStorymodels = storyModels[i];
-                break;
+                if (storyModels[i].storyNumber == number)
+                    {
+                    tempStorymodels = storyModels[i];
+                    break;
+                    }
+            
+ 
             }
             return tempStorymodels;
         }
